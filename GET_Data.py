@@ -202,8 +202,8 @@ def DELETE_CSV(url):
     data = GET_RESULTS(url)
 
     season = data[1].replace("/", "_")
-    file = "./Python_Projects/Football/CSV/" + data[0] + "_" + season + ".csv"    
-
+    file = "./CSV/" + data[0] + "_" + season + ".csv"    
+    
     f = open(file, "w+") # delete CSV content
     f.close()    
 
