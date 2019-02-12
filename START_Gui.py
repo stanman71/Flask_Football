@@ -5,7 +5,7 @@ from flask import Flask, render_template, request
 from flask_bootstrap import Bootstrap 
 
 
-file = "./Python_Projects/Football/CSV/1_Bundesliga_2018_2019.csv"
+file = "./CSV/1_Bundesliga_2018_2019.csv"
 
 
 app = Flask(__name__)
