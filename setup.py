@@ -15,7 +15,7 @@ setup(
     long_description=readme,
     author='Martin Stan',
     author_email='martin.stan@gmx.de',
-    url='https://github.com/stanman71/Football',
+    url='https://github.com/stanman71/Flask_Football',
     license=license,
     packages=find_packages(exclude=('CSV', 'templates'))
 )
