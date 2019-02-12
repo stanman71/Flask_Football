@@ -1,0 +1,307 @@
+Spieltag,Status,Team_1,Team_2,Tore_Team_1,Tore_Team_2
+01,PASS,Bayern München,TSG Hoffenheim,3,1
+01,PASS,Hertha BSC,1. FC Nürnberg,1,0
+01,PASS,SV Werder Bremen,Hannover 96,1,1
+01,PASS,SC Freiburg,Eintracht Frankfurt,0,2
+01,PASS,VfL Wolfsburg,FC Schalke 04,2,1
+01,PASS,Fortuna Düsseldorf,FC Augsburg,1,2
+01,PASS,Borussia Mönchengladbach,Bayer 04 Leverkusen,2,0
+01,PASS,1. FSV Mainz 05,VfB Stuttgart,1,0
+01,PASS,Borussia Dortmund,RB Leipzig,4,1
+02,PASS,Hannover 96,Borussia Dortmund,0,0
+02,PASS,TSG Hoffenheim,SC Freiburg,3,1
+02,PASS,Bayer 04 Leverkusen,VfL Wolfsburg,1,3
+02,PASS,Eintracht Frankfurt,SV Werder Bremen,1,2
+02,PASS,FC Augsburg,Borussia Mönchengladbach,1,1
+02,PASS,1. FC Nürnberg,1. FSV Mainz 05,1,1
+02,PASS,VfB Stuttgart,Bayern München,0,3
+02,PASS,RB Leipzig,Fortuna Düsseldorf,1,1
+02,PASS,FC Schalke 04,Hertha BSC,0,2
+03,PASS,Borussia Dortmund,Eintracht Frankfurt,3,1
+03,PASS,Bayern München,Bayer 04 Leverkusen,3,1
+03,PASS,RB Leipzig,Hannover 96,3,2
+03,PASS,1. FSV Mainz 05,FC Augsburg,2,1
+03,PASS,VfL Wolfsburg,Hertha BSC,2,2
+03,PASS,Fortuna Düsseldorf,TSG Hoffenheim,2,1
+03,PASS,Borussia Mönchengladbach,FC Schalke 04,2,1
+03,PASS,SV Werder Bremen,1. FC Nürnberg,1,1
+03,PASS,SC Freiburg,VfB Stuttgart,3,3
+04,PASS,VfB Stuttgart,Fortuna Düsseldorf,0,0
+04,PASS,VfL Wolfsburg,SC Freiburg,1,3
+04,PASS,TSG Hoffenheim,Borussia Dortmund,1,1
+04,PASS,Hertha BSC,Borussia Mönchengladbach,4,2
+04,PASS,FC Augsburg,SV Werder Bremen,2,3
+04,PASS,1. FC Nürnberg,Hannover 96,2,0
+04,PASS,FC Schalke 04,Bayern München,0,2
+04,PASS,Bayer 04 Leverkusen,1. FSV Mainz 05,1,0
+04,PASS,Eintracht Frankfurt,RB Leipzig,1,1
+05,PASS,SV Werder Bremen,Hertha BSC,3,1
+05,PASS,Bayern München,FC Augsburg,1,1
+05,PASS,Hannover 96,TSG Hoffenheim,1,3
+05,PASS,SC Freiburg,FC Schalke 04,1,0
+05,PASS,Fortuna Düsseldorf,Bayer 04 Leverkusen,1,2
+05,PASS,Borussia Dortmund,1. FC Nürnberg,7,0
+05,PASS,RB Leipzig,VfB Stuttgart,2,0
+05,PASS,Borussia Mönchengladbach,Eintracht Frankfurt,3,1
+05,PASS,1. FSV Mainz 05,VfL Wolfsburg,0,0
+06,PASS,Hertha BSC,Bayern München,2,0
+06,PASS,FC Schalke 04,1. FSV Mainz 05,1,0
+06,PASS,TSG Hoffenheim,RB Leipzig,1,2
+06,PASS,VfB Stuttgart,SV Werder Bremen,2,1
+06,PASS,VfL Wolfsburg,Borussia Mönchengladbach,2,2
+06,PASS,1. FC Nürnberg,Fortuna Düsseldorf,3,0
+06,PASS,Bayer 04 Leverkusen,Borussia Dortmund,2,4
+06,PASS,Eintracht Frankfurt,Hannover 96,4,1
+06,PASS,FC Augsburg,SC Freiburg,4,1
+07,PASS,SV Werder Bremen,VfL Wolfsburg,2,0
+07,PASS,Borussia Dortmund,FC Augsburg,4,3
+07,PASS,Hannover 96,VfB Stuttgart,3,1
+07,PASS,1. FSV Mainz 05,Hertha BSC,0,0
+07,PASS,Fortuna Düsseldorf,FC Schalke 04,0,2
+07,PASS,Bayern München,Borussia Mönchengladbach,0,3
+07,PASS,SC Freiburg,Bayer 04 Leverkusen,0,0
+07,PASS,TSG Hoffenheim,Eintracht Frankfurt,1,2
+07,PASS,RB Leipzig,1. FC Nürnberg,6,0
+08,PASS,Eintracht Frankfurt,Fortuna Düsseldorf,7,1
+08,PASS,Bayer 04 Leverkusen,Hannover 96,2,2
+08,PASS,VfB Stuttgart,Borussia Dortmund,0,4
+08,PASS,FC Augsburg,RB Leipzig,0,0
+08,PASS,VfL Wolfsburg,Bayern München,1,3
+08,PASS,1. FC Nürnberg,TSG Hoffenheim,1,3
+08,PASS,FC Schalke 04,SV Werder Bremen,0,2
+08,PASS,Hertha BSC,SC Freiburg,1,1
+08,PASS,Borussia Mönchengladbach,1. FSV Mainz 05,4,0
+09,PASS,SC Freiburg,Borussia Mönchengladbach,3,1
+09,PASS,Borussia Dortmund,Hertha BSC,2,2
+09,PASS,Hannover 96,FC Augsburg,1,2
+09,PASS,1. FSV Mainz 05,Bayern München,1,2
+09,PASS,Fortuna Düsseldorf,VfL Wolfsburg,0,3
+09,PASS,TSG Hoffenheim,VfB Stuttgart,4,0
+09,PASS,1. FC Nürnberg,Eintracht Frankfurt,1,1
+09,PASS,RB Leipzig,FC Schalke 04,0,0
+09,PASS,SV Werder Bremen,Bayer 04 Leverkusen,2,6
+10,PASS,VfB Stuttgart,Eintracht Frankfurt,0,3
+10,PASS,Bayern München,SC Freiburg,1,1
+10,PASS,FC Schalke 04,Hannover 96,3,1
+10,PASS,Bayer 04 Leverkusen,TSG Hoffenheim,1,4
+10,PASS,FC Augsburg,1. FC Nürnberg,2,2
+10,PASS,VfL Wolfsburg,Borussia Dortmund,0,1
+10,PASS,Hertha BSC,RB Leipzig,0,3
+10,PASS,Borussia Mönchengladbach,Fortuna Düsseldorf,3,0
+10,PASS,1. FSV Mainz 05,SV Werder Bremen,2,1
+11,PASS,Hannover 96,VfL Wolfsburg,2,1
+11,PASS,TSG Hoffenheim,FC Augsburg,2,1
+11,PASS,SV Werder Bremen,Borussia Mönchengladbach,1,3
+11,PASS,SC Freiburg,1. FSV Mainz 05,1,3
+11,PASS,Fortuna Düsseldorf,Hertha BSC,4,1
+11,PASS,1. FC Nürnberg,VfB Stuttgart,0,2
+11,PASS,Borussia Dortmund,Bayern München,3,2
+11,PASS,RB Leipzig,Bayer 04 Leverkusen,3,0
+11,PASS,Eintracht Frankfurt,FC Schalke 04,3,0
+12,PASS,Bayer 04 Leverkusen,VfB Stuttgart,2,0
+12,PASS,Bayern München,Fortuna Düsseldorf,3,3
+12,PASS,Hertha BSC,TSG Hoffenheim,3,3
+12,PASS,FC Augsburg,Eintracht Frankfurt,1,3
+12,PASS,1. FSV Mainz 05,Borussia Dortmund,1,2
+12,PASS,VfL Wolfsburg,RB Leipzig,1,0
+12,PASS,FC Schalke 04,1. FC Nürnberg,5,2
+12,PASS,SC Freiburg,SV Werder Bremen,1,1
+12,PASS,Borussia Mönchengladbach,Hannover 96,4,1
+13,PASS,Fortuna Düsseldorf,1. FSV Mainz 05,0,1
+13,PASS,Borussia Dortmund,SC Freiburg,2,0
+13,PASS,VfB Stuttgart,FC Augsburg,1,0
+13,PASS,SV Werder Bremen,Bayern München,1,2
+13,PASS,Hannover 96,Hertha BSC,0,2
+13,PASS,TSG Hoffenheim,FC Schalke 04,1,1
+13,PASS,RB Leipzig,Borussia Mönchengladbach,2,0
+13,PASS,Eintracht Frankfurt,VfL Wolfsburg,1,2
+13,PASS,1. FC Nürnberg,Bayer 04 Leverkusen,1,1
+14,PASS,SV Werder Bremen,Fortuna Düsseldorf,3,1
+14,PASS,Bayern München,1. FC Nürnberg,3,0
+14,PASS,FC Schalke 04,Borussia Dortmund,1,2
+14,PASS,Bayer 04 Leverkusen,FC Augsburg,1,0
+14,PASS,SC Freiburg,RB Leipzig,3,0
+14,PASS,VfL Wolfsburg,TSG Hoffenheim,2,2
+14,PASS,Hertha BSC,Eintracht Frankfurt,1,0
+14,PASS,1. FSV Mainz 05,Hannover 96,1,1
+14,PASS,Borussia Mönchengladbach,VfB Stuttgart,3,0
+15,PASS,1. FC Nürnberg,VfL Wolfsburg,0,2
+15,PASS,TSG Hoffenheim,Borussia Mönchengladbach,0,0
+15,PASS,VfB Stuttgart,Hertha BSC,2,1
+15,PASS,FC Augsburg,FC Schalke 04,1,1
+15,PASS,Hannover 96,Bayern München,0,4
+15,PASS,Fortuna Düsseldorf,SC Freiburg,2,0
+15,PASS,Borussia Dortmund,SV Werder Bremen,2,1
+15,PASS,RB Leipzig,1. FSV Mainz 05,4,1
+15,PASS,Eintracht Frankfurt,Bayer 04 Leverkusen,2,1
+16,PASS,Borussia Mönchengladbach,1. FC Nürnberg,2,0
+16,PASS,Hertha BSC,FC Augsburg,2,2
+16,PASS,VfL Wolfsburg,VfB Stuttgart,2,0
+16,PASS,Fortuna Düsseldorf,Borussia Dortmund,2,1
+16,PASS,FC Schalke 04,Bayer 04 Leverkusen,1,2
+16,PASS,Bayern München,RB Leipzig,1,0
+16,PASS,SV Werder Bremen,TSG Hoffenheim,1,1
+16,PASS,SC Freiburg,Hannover 96,1,1
+16,PASS,1. FSV Mainz 05,Eintracht Frankfurt,2,2
+17,PASS,Borussia Dortmund,Borussia Mönchengladbach,2,1
+17,PASS,Bayer 04 Leverkusen,Hertha BSC,3,1
+17,PASS,RB Leipzig,SV Werder Bremen,3,2
+17,PASS,VfB Stuttgart,FC Schalke 04,1,3
+17,PASS,Hannover 96,Fortuna Düsseldorf,0,1
+17,PASS,1. FC Nürnberg,SC Freiburg,0,1
+17,PASS,Eintracht Frankfurt,Bayern München,0,3
+17,PASS,FC Augsburg,VfL Wolfsburg,2,3
+17,PASS,TSG Hoffenheim,1. FSV Mainz 05,1,1
+18,OPEN,TSG Hoffenheim,Bayern München,,
+18,OPEN,Bayer 04 Leverkusen,Borussia Mönchengladbach,,
+18,OPEN,VfB Stuttgart,1. FSV Mainz 05,,
+18,OPEN,Eintracht Frankfurt,SC Freiburg,,
+18,OPEN,FC Augsburg,Fortuna Düsseldorf,,
+18,OPEN,Hannover 96,SV Werder Bremen,,
+18,OPEN,RB Leipzig,Borussia Dortmund,,
+18,OPEN,1. FC Nürnberg,Hertha BSC,,
+18,OPEN,FC Schalke 04,VfL Wolfsburg,,
+19,OPEN,Hertha BSC,FC Schalke 04,,
+19,OPEN,Borussia Dortmund,Hannover 96,,
+19,OPEN,Borussia Mönchengladbach,FC Augsburg,,
+19,OPEN,SC Freiburg,TSG Hoffenheim,,
+19,OPEN,1. FSV Mainz 05,1. FC Nürnberg,,
+19,OPEN,VfL Wolfsburg,Bayer 04 Leverkusen,,
+19,OPEN,SV Werder Bremen,Eintracht Frankfurt,,
+19,OPEN,Bayern München,VfB Stuttgart,,
+19,OPEN,Fortuna Düsseldorf,RB Leipzig,,
+20,OPEN,Hannover 96,RB Leipzig,,
+20,OPEN,TSG Hoffenheim,Fortuna Düsseldorf,,
+20,OPEN,Bayer 04 Leverkusen,Bayern München,,
+20,OPEN,Eintracht Frankfurt,Borussia Dortmund,,
+20,OPEN,Hertha BSC,VfL Wolfsburg,,
+20,OPEN,1. FC Nürnberg,SV Werder Bremen,,
+20,OPEN,FC Schalke 04,Borussia Mönchengladbach,,
+20,OPEN,FC Augsburg,1. FSV Mainz 05,,
+20,OPEN,VfB Stuttgart,SC Freiburg,,
+21,OPEN,1. FSV Mainz 05,Bayer 04 Leverkusen,,
+21,OPEN,Borussia Dortmund,TSG Hoffenheim,,
+21,OPEN,RB Leipzig,Eintracht Frankfurt,,
+21,OPEN,Borussia Mönchengladbach,Hertha BSC,,
+21,OPEN,Hannover 96,1. FC Nürnberg,,
+21,OPEN,SC Freiburg,VfL Wolfsburg,,
+21,OPEN,Bayern München,FC Schalke 04,,
+21,OPEN,SV Werder Bremen,FC Augsburg,,
+21,OPEN,Fortuna Düsseldorf,VfB Stuttgart,,
+22,OPEN,FC Augsburg,Bayern München,,
+22,OPEN,FC Schalke 04,SC Freiburg,,
+22,OPEN,TSG Hoffenheim,Hannover 96,,
+22,OPEN,VfB Stuttgart,RB Leipzig,,
+22,OPEN,VfL Wolfsburg,1. FSV Mainz 05,,
+22,OPEN,Hertha BSC,SV Werder Bremen,,
+22,OPEN,Eintracht Frankfurt,Borussia Mönchengladbach,,
+22,OPEN,Bayer 04 Leverkusen,Fortuna Düsseldorf,,
+22,OPEN,1. FC Nürnberg,Borussia Dortmund,,
+23,OPEN,SV Werder Bremen,VfB Stuttgart,,
+23,OPEN,Bayern München,Hertha BSC,,
+23,OPEN,Borussia Mönchengladbach,VfL Wolfsburg,,
+23,OPEN,SC Freiburg,FC Augsburg,,
+23,OPEN,1. FSV Mainz 05,FC Schalke 04,,
+23,OPEN,Fortuna Düsseldorf,1. FC Nürnberg,,
+23,OPEN,Hannover 96,Eintracht Frankfurt,,
+23,OPEN,Borussia Dortmund,Bayer 04 Leverkusen,,
+23,OPEN,RB Leipzig,TSG Hoffenheim,,
+24,OPEN,FC Augsburg,Borussia Dortmund,,
+24,OPEN,FC Schalke 04,Fortuna Düsseldorf,,
+24,OPEN,Bayer 04 Leverkusen,SC Freiburg,,
+24,OPEN,Eintracht Frankfurt,TSG Hoffenheim,,
+24,OPEN,Hertha BSC,1. FSV Mainz 05,,
+24,OPEN,1. FC Nürnberg,RB Leipzig,,
+24,OPEN,Borussia Mönchengladbach,Bayern München,,
+24,OPEN,VfB Stuttgart,Hannover 96,,
+24,OPEN,VfL Wolfsburg,SV Werder Bremen,,
+25,OPEN,SV Werder Bremen,FC Schalke 04,,
+25,OPEN,Bayern München,VfL Wolfsburg,,
+25,OPEN,Borussia Dortmund,VfB Stuttgart,,
+25,OPEN,RB Leipzig,FC Augsburg,,
+25,OPEN,SC Freiburg,Hertha BSC,,
+25,OPEN,1. FSV Mainz 05,Borussia Mönchengladbach,,
+25,OPEN,TSG Hoffenheim,1. FC Nürnberg,,
+25,OPEN,Hannover 96,Bayer 04 Leverkusen,,
+25,OPEN,Fortuna Düsseldorf,Eintracht Frankfurt,,
+26,OPEN,Borussia Mönchengladbach,SC Freiburg,,
+26,OPEN,FC Schalke 04,RB Leipzig,,
+26,OPEN,VfB Stuttgart,TSG Hoffenheim,,
+26,OPEN,VfL Wolfsburg,Fortuna Düsseldorf,,
+26,OPEN,FC Augsburg,Hannover 96,,
+26,OPEN,Hertha BSC,Borussia Dortmund,,
+26,OPEN,Bayer 04 Leverkusen,SV Werder Bremen,,
+26,OPEN,Eintracht Frankfurt,1. FC Nürnberg,,
+26,OPEN,Bayern München,1. FSV Mainz 05,,
+27,OPEN,TSG Hoffenheim,Bayer 04 Leverkusen,,
+27,OPEN,Borussia Dortmund,VfL Wolfsburg,,
+27,OPEN,SV Werder Bremen,1. FSV Mainz 05,,
+27,OPEN,SC Freiburg,Bayern München,,
+27,OPEN,Fortuna Düsseldorf,Borussia Mönchengladbach,,
+27,OPEN,1. FC Nürnberg,FC Augsburg,,
+27,OPEN,RB Leipzig,Hertha BSC,,
+27,OPEN,Hannover 96,FC Schalke 04,,
+27,OPEN,Eintracht Frankfurt,VfB Stuttgart,,
+28,OPEN,1. FSV Mainz 05,SC Freiburg,,
+28,OPEN,FC Schalke 04,Eintracht Frankfurt,,
+28,OPEN,Bayer 04 Leverkusen,RB Leipzig,,
+28,OPEN,VfB Stuttgart,1. FC Nürnberg,,
+28,OPEN,Hertha BSC,Fortuna Düsseldorf,,
+28,OPEN,VfL Wolfsburg,Hannover 96,,
+28,OPEN,Bayern München,Borussia Dortmund,,
+28,OPEN,FC Augsburg,TSG Hoffenheim,,
+28,OPEN,Borussia Mönchengladbach,SV Werder Bremen,,
+29,OPEN,TSG Hoffenheim,Hertha BSC,,
+29,OPEN,Borussia Dortmund,1. FSV Mainz 05,,
+29,OPEN,RB Leipzig,VfL Wolfsburg,,
+29,OPEN,VfB Stuttgart,Bayer 04 Leverkusen,,
+29,OPEN,Eintracht Frankfurt,FC Augsburg,,
+29,OPEN,SV Werder Bremen,SC Freiburg,,
+29,OPEN,Hannover 96,Borussia Mönchengladbach,,
+29,OPEN,Fortuna Düsseldorf,Bayern München,,
+29,OPEN,1. FC Nürnberg,FC Schalke 04,,
+30,OPEN,Bayern München,SV Werder Bremen,,
+30,OPEN,FC Schalke 04,TSG Hoffenheim,,
+30,OPEN,Bayer 04 Leverkusen,1. FC Nürnberg,,
+30,OPEN,Borussia Mönchengladbach,RB Leipzig,,
+30,OPEN,Hertha BSC,Hannover 96,,
+30,OPEN,FC Augsburg,VfB Stuttgart,,
+30,OPEN,SC Freiburg,Borussia Dortmund,,
+30,OPEN,1. FSV Mainz 05,Fortuna Düsseldorf,,
+30,OPEN,VfL Wolfsburg,Eintracht Frankfurt,,
+31,OPEN,Eintracht Frankfurt,Hertha BSC,,
+31,OPEN,FC Augsburg,Bayer 04 Leverkusen,,
+31,OPEN,Hannover 96,1. FSV Mainz 05,,
+31,OPEN,Fortuna Düsseldorf,SV Werder Bremen,,
+31,OPEN,1. FC Nürnberg,Bayern München,,
+31,OPEN,TSG Hoffenheim,VfL Wolfsburg,,
+31,OPEN,Borussia Dortmund,FC Schalke 04,,
+31,OPEN,RB Leipzig,SC Freiburg,,
+31,OPEN,VfB Stuttgart,Borussia Mönchengladbach,,
+32,OPEN,Bayern München,Hannover 96,,
+32,OPEN,FC Schalke 04,FC Augsburg,,
+32,OPEN,Bayer 04 Leverkusen,Eintracht Frankfurt,,
+32,OPEN,Borussia Mönchengladbach,TSG Hoffenheim,,
+32,OPEN,Hertha BSC,VfB Stuttgart,,
+32,OPEN,SV Werder Bremen,Borussia Dortmund,,
+32,OPEN,SC Freiburg,Fortuna Düsseldorf,,
+32,OPEN,1. FSV Mainz 05,RB Leipzig,,
+32,OPEN,VfL Wolfsburg,1. FC Nürnberg,,
+33,OPEN,TSG Hoffenheim,SV Werder Bremen,,
+33,OPEN,Borussia Dortmund,Fortuna Düsseldorf,,
+33,OPEN,Bayer 04 Leverkusen,FC Schalke 04,,
+33,OPEN,RB Leipzig,Bayern München,,
+33,OPEN,VfB Stuttgart,VfL Wolfsburg,,
+33,OPEN,Eintracht Frankfurt,1. FSV Mainz 05,,
+33,OPEN,FC Augsburg,Hertha BSC,,
+33,OPEN,Hannover 96,SC Freiburg,,
+33,OPEN,1. FC Nürnberg,Borussia Mönchengladbach,,
+34,OPEN,Bayern München,Eintracht Frankfurt,,
+34,OPEN,FC Schalke 04,VfB Stuttgart,,
+34,OPEN,Borussia Mönchengladbach,Borussia Dortmund,,
+34,OPEN,Hertha BSC,Bayer 04 Leverkusen,,
+34,OPEN,SV Werder Bremen,RB Leipzig,,
+34,OPEN,SC Freiburg,1. FC Nürnberg,,
+34,OPEN,1. FSV Mainz 05,TSG Hoffenheim,,
+34,OPEN,VfL Wolfsburg,FC Augsburg,,
+34,OPEN,Fortuna Düsseldorf,Hannover 96,,

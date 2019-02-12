@@ -1,0 +1,232 @@
+<!-- https://getbootstrap.com/docs/3.3/components -->
+<!-- https://getbootstrap.com/docs/4.0/layout/grid/ -->
+<!-- https://www.w3schools.com/bootstrap/bootstrap_grid_examples.asp -->
+
+<!-- https://pythonhosted.org/Flask-Bootstrap/ -->
+
+
+
+{% extends "bootstrap/base.html" %}
+
+{% block content %} 
+
+<div class="container">
+
+  <!-- HIDDEN -->
+  <div class="row">
+    <div class="col">
+      <div class="invisible">HIDDEN</div>
+    </div>
+    <div class="col">
+      <div class="invisible">HIDDEN</div>
+    </div>
+  </div> 
+  
+  
+  <!-- NAVIGATION -->
+  <div class="row">
+    <div class="col-sm">
+      <ul class="nav nav-pills">   
+        <br>          
+        <li role="presentation" class="active"><a href="/">{{ site1 }}</a></li>
+        <br>
+        <br>
+        <br>
+        <br>
+      </ul>       
+    </div>
+  </div>
+
+
+  <!-- HIDDEN -->
+  <div class="row">
+    <div class="col">
+      <div class="invisible">HIDDEN</div>
+    </div>
+    <div class="col">
+      <div class="invisible">HIDDEN</div>
+    </div>
+  </div> 
+
+
+  <!-- DROPDOWN -->
+  <div class="dropdown">
+    <form action=/club  method="GET" enctype="multipart/form-data">
+      <select class="btn btn-secondary dropdown-toggle" name="club">
+          {% for each in dropdown_list %}
+          <option value="{{each}}">{{each}}</option>
+          {% endfor %}
+      </select>
+      <input type="submit" class="btn btn-secondary" value="Submit">
+    </form>
+  </div> 
+
+
+  <!-- HIDDEN -->
+  <div class="row">
+    <div class="col">
+      <div class="invisible">HIDDEN</div>
+    </div>
+    <div class="col">
+      <div class="invisible">HIDDEN</div>
+    </div>
+  </div> 
+
+
+  <!-- TITLE -->  
+  <h1>{{ club_name }}</h1>
+
+
+  <!-- HIDDEN -->
+  <div class="row">
+    <div class="col">
+      <div class="invisible">HIDDEN</div>
+    </div>
+    <div class="col">
+      <div class="invisible">HIDDEN</div>
+    </div>
+  </div> 
+
+
+  <!-- BUTTONS -->
+  <form action="" method="post"> 
+        <input type="submit" class="btn btn-secondary" name="Button_1" value="Spielplan"/>
+        <input type="submit" class="btn btn-secondary" name="Button_2" value="Punkte"/>
+        <input type="submit" class="btn btn-secondary" name="Button_3" value="ATT / DEF"/>
+        <input type="submit" class="btn btn-secondary" name="Button_4" value="Ergebnisse"/>
+        <input type="submit" class="btn btn-secondary" name="Button_5" value="Poisson"/>
+  </form>
+
+
+  <!-- HIDDEN -->
+  <div class="row">
+    <div class="col">
+      <div class="invisible">HIDDEN</div>
+    </div>
+    <div class="col">
+      <div class="invisible">HIDDEN</div>
+    </div>
+  </div> 
+
+
+
+  <!-- GRAPH POINTS -->
+  {% if graph_table is defined %}
+      <div><h3>Punkte</h3></div>
+      <div><img src='{{ graph_table }}'></img></div>
+  {% endif %}
+  
+ 
+
+  <!-- ATT / DEF -->  
+  {% if att_value is defined %}
+      <div><h5>ATT Bestimmtheitsmass: {{ att_value }}</h5></div>
+      <div><h5>DEF Bestimmtheitsmass: {{ def_value }}</h5></div>
+      <br>
+      <br>
+      <div><h4>Tore</h4></div>
+      <br>
+      <div><img src='{{ graph_goals }}'></img></div>
+      <div><h6>Blau:   reale Ergebnisse</h6></div>
+      <div><h6>Orange: berechnete Ergebnisse</h6></div>
+      <br>
+      <div><h4>Gegentore</h4></div>
+      <br>
+      <div><img src='{{ graph_hits }}'></img></div>
+      <div><h6>Blau:   reale Ergebnisse</h6></div>
+      <div><h6>Orange: berechnete Ergebnisse</h6></div>
+  {% endif %}
+  
+ 
+
+  <!-- Results -->  
+  {% if graph_real is defined %}
+      <div><h4>Vorhergesagtes Ergebnis</h4></div>
+      <div><img src='{{ graph_real }}'></img></div>
+       <div><h6>Blau: Tore {{ club_name }}</h6></div>
+      <br>
+      <div><h4>Reales Ergebnis</h4></div>
+      <div><img src='{{ graph_pred }}'></img></div>
+       <div><h6>Blau: Tore {{ club_name }}</h6></div>
+  {% endif %}
+
+
+
+  <!-- TABLE SEASON -->  
+  {% if season is defined %}
+      <div class="row">
+          <div class="col">
+            <h3>Spielplan</h3>
+            <br>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                      <th scope="col">Spieltag</th>
+                      <th scope="col">Heim</th>
+                      <th scope="col">Aus</th>
+                      <th scope="col">Ergebnis</th>
+                    <tr>
+                </thead>
+                <tbody>
+                    {% for each_day in season %}
+                    <tr>
+                      <th scope="row">{{ each_day[0] }}</td>
+                      <td>{{ each_day[1][0] }}</td>
+                      <td>{{ each_day[1][1] }}</td> 
+                      <td>{{ each_day[2][0] }}</td> 
+                      <td>{{ each_day[2][1] }}</td>                    
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+          </div>
+      </div>    
+  {% endif %}
+  
+ 
+
+  <!-- TABLE POISSON --> 
+  {% if poisson is defined %}
+      <div class="row">
+          <div class="col">
+            <h3>Poisson</h3>
+            <br>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                      <th scope="col">Spieltag</th>
+                      <th scope="col">Ort</th>
+                      <th scope="col">Gegner</th>
+                      <th scope="col">Tore</th>
+                      <th scope="col">Chance</th>
+                      <th scope="col">Gegentore</th>
+                      <th scope="col">Chance</th>
+                      <th scope="col">Ergebnis</th>       
+                      <th scope="col">Abweichung</th>                                       
+                    <tr>
+                </thead>
+                <tbody>
+                    {% for each_day in poisson %}
+                    <tr>
+                      <th scope="row">{{ each_day[0] }}</td>
+                      <td>{{ each_day[1] }}</td>
+                      <td>{{ each_day[2] }}</td> 
+                      <td>{{ each_day[3][0] }}</td> 
+                      <td>{{ each_day[3][1] }}</td>       
+                      <td>{{ each_day[3][2] }}</td> 
+                      <td>{{ each_day[3][3] }}</td>       
+                      <td>{{ each_day[4][0] }}</td> 
+                      <td>{{ each_day[4][1] }}</td>                                                            
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+          </div>
+      </div>    
+  {% endif %}
+
+
+
+{% endblock %}
+
+

@@ -1,0 +1,8 @@
+flask
+flask_bootstrap
+requests
+bs4
+pandas
+numpy
+scipy
+matplotlib

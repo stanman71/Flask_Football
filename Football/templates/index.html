@@ -1,0 +1,166 @@
+<!-- https://getbootstrap.com/docs/3.3/components -->
+<!-- https://getbootstrap.com/docs/4.0/layout/grid/ -->
+<!-- https://www.w3schools.com/bootstrap/bootstrap_grid_examples.asp -->
+
+<!-- https://pythonhosted.org/Flask-Bootstrap/ -->
+
+
+
+{% extends "bootstrap/base.html" %}
+
+{% block content %} 
+
+<div class="container">
+
+  <!-- HIDDEN -->
+  <div class="row">
+    <div class="col">
+      <div class="invisible">HIDDEN</div>
+    </div>
+    <div class="col">
+      <div class="invisible">HIDDEN</div>
+    </div>
+  </div> 
+  
+
+  <!-- NAVIGATION -->
+  <div class="row">
+    <div class="col-sm">
+      <ul class="nav nav-pills">    
+        <br>         
+        <li role="presentation" class="active"><a href="/">{{ site1 }}</a></li>
+        <br>
+        <br>
+        <br>
+        <br>
+      </ul>       
+    </div>
+  </div>
+
+
+  <!-- HIDDEN -->
+  <div class="row">
+    <div class="col">
+      <div class="invisible">HIDDEN</div>
+    </div>
+    <div class="col">
+      <div class="invisible">HIDDEN</div>
+    </div>
+  </div> 
+
+
+  <!-- DROPDOWN -->
+  <div class="dropdown">
+    <form action=/club  method="GET" enctype="multipart/form-data">
+      <select class="btn btn-secondary dropdown-toggle" name = "club">
+          {% for each in dropdown_list %}
+          <option value="{{each}}">{{each}}</option>
+          {% endfor %}
+      </select>
+          <input type="submit" class="btn btn-secondary" value="Submit">
+    </form>
+  </div>
+
+
+  <!-- HIDDEN -->
+  <div class="row">
+    <div class="col">
+      <div class="invisible">HIDDEN</div>
+    </div>
+    <div class="col">
+      <div class="invisible">HIDDEN</div>
+    </div>
+    <div class="col">
+      <div class="invisible">HIDDEN</div>
+    </div>
+    <div class="col">
+      <div class="invisible">HIDDEN</div>
+    </div>
+  </div> 
+
+
+  <!-- CONTENT -->
+  <div class="row">
+    <div class="col-sm-4">
+      <p>
+        This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.
+      </p>
+    </div>
+    <div class="col-sm-4">
+      <p>
+        This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.
+      </p>
+    </div>
+    <div class="col-sm-4">
+        <p>
+          This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.
+        </p>
+      </div>
+  </div>
+
+
+  <!-- HIDDEN -->
+  <div class="row">
+    <div class="col">
+      <div class="invisible">HIDDEN</div>
+    </div>
+    <div class="col">
+      <div class="invisible">HIDDEN</div>
+    </div>
+    <div class="col">
+      <div class="invisible">HIDDEN</div>
+    </div>
+    <div class="col">
+      <div class="invisible">HIDDEN</div>
+    </div>
+  </div> 
+
+
+  <!-- FORM OUTPUT -->
+  {% if check is defined %}
+    <div class="alert alert-success" role="alert">
+      <h3>Der Name ist: {{ name }}</h3>
+    </div>
+  {% elif name is not none %}
+    <div class="alert alert-danger" role="alert">
+      <h3>Eingabe mit Checkbox bestätigen</h3>
+    </div>
+  {% endif %}
+
+
+  <!-- HIDDEN -->  
+  <div class="row">
+    <div class="col">
+      <div class="invisible">HIDDEN</div>
+    </div>
+    <div class="col">
+      <div class="invisible">HIDDEN</div>
+    </div>
+  </div> 
+
+
+  <!-- FORM INPUT -->
+  <form method="get">
+    <form class="px-4 py-3">
+      <div class="form-group">
+        <label for="name">Name: </label>
+        <input type="text" class="form-control" name="name" value="{% if name != None %}{{ name }}{% endif %}" />
+      </div>
+      <div class="form-group">
+        <label for="age">Alter: </label>
+        <input type="text" class="form-control" name="age" value="{% if age != None %}{{ age }}{% endif %}"/>
+      </div>
+      <br>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" name="checkbox">
+        <label class="form-check-label" for="dropdownCheck">Checkbox</label>
+      </div>
+      <br>
+      <button type="submit" class="btn btn-primary">Sign in</button>
+    </form>  
+  </form>
+
+{% endblock %}
+
+
+
