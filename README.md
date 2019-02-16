@@ -30,7 +30,7 @@ It was created to learn flask, web crawling, data processing and data visualizat
 GET_ALL(url)
 ```
 
-- results will save in a CSV-file automatically (folder: CSV) 
+- results will be saved in a CSV-file automatically (folder: CSV) 
 
 </br>
 
